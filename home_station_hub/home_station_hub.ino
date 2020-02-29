@@ -5,15 +5,14 @@
 */
 
 // the setup function runs once when you press reset or power the board
+#include <SPI.h>
 #include <RF24_config.h>
 #include <RF24.h>
 #include <printf.h>
 #include <nRF24L01.h>
-#include <LiquidCrystal.h>
-#include <DHT.h>
-#include <BMP085.h>
-void setup() {
 
+
+void setup() {
 }
 
 // the loop function runs over and over again until power down or reset
